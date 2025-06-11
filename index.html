@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   <style>
     body {
-      background: linear-gradient(135deg, #f0f2f5, #dfe6ed);
+      background: linear-gradient(135deg, #d4d80b, #dfe6ed);
       font-family: 'Segoe UI', sans-serif;
     }
 
@@ -48,12 +48,28 @@
     <div class="row justify-content-center">
       <div class="col-md-7 col-lg-6">
         <div class="card p-4">
-          <h3 class="text-center mb-4"><i class="bi bi-clipboard-check-fill me-2 text-primary"></i>Absensi dan Logbook UNICEF KEMITRAAN UNIMUDA Sorong</h3>
+          <h3 class="text-center mb-4"><i class="bi bi-clipboard-check-fill me-2 text-primary"></i>Absensi dan Logbook UNICEF KEMITRAAN UNIMUDA</h3>
           <form id="absenForm">
             <!-- DATA ABSENSI -->
             <div class="mb-3">
               <label for="nama" class="form-label"><i class="bi bi-person-fill form-icon"></i>Nama</label>
-              <input type="text" class="form-control" id="nama" name="nama" required>
+              <select class="form-select" id="jabatan" name="jabatan" required>
+                <option value="">-- Pilih Nama --</option>
+                 <option value="Dr. Nursalim, M.Pd.">Dr. Nursalim, M.Pd.</option>
+                 <option value="Surya Putra Raharja, M.Pd.">Surya Putra Raharja, M.Pd.</option>
+                 <option value="Yeni Witdianti, M.S.I, M.Pd.">Yeni Witdianti, M.S.I, M.Pd.</option>
+                 <option value="M. Akbar Hidayat, S.H.">M. Akbar Hidayat, S.H.</option>
+                  <option value="Tirza Pangkali, S.Pd.">Tirza Pangkali, S.Pd.</option>
+                  <option value="Dr. Firman, M.Pd.">Dr. Firman, M.Pd.</option>
+                  <option value="Riyanti, S.E.">Riyanti, S.E.</option>
+                  <option value="Rina Handayani, S.Pd.">Rina Handayani, S.Pd.</option>
+                  <option value="Fitri Indayani, S.Pd.">Fitri Indayani, S.Pd.</option>
+                  <option value="Elizabeth Bukorpioper, S.H.">Elizabeth Bukorpioper, S.H.</option>
+                  <option value="Ignasius Buu, S.Pd.">Ignasius Buu, S.Pd.</option>
+                   <option value="Fuad Ardiansyah, M.Psi.">Fuad Ardiansyah, M.Psi.</option>
+                   <option value="Muhammad Sunjaya, S.E.">Muhammad Sunjaya, S.E.</option>
+                   <option value="Windika Dian Ayu Lusiana, S.E.">Windika Dian Ayu Lusiana, S.E.</option>
+           </select>
             </div>
             <div class="mb-3">
   <label for="jabatan" class="form-label"><i class="bi bi-briefcase-fill form-icon"></i>Jabatan</label>
